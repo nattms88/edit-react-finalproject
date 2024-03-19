@@ -1,0 +1,119 @@
+body {
+  font-family: "Fira Sans", sans-serif;
+  background-color: #fdfaf6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+}
+.contact {
+  width: 100%;
+}
+
+.contactContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  padding-left: 16rem;
+}
+.contactImg {
+  width: auto;
+  height: 20rem;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.contactHeading {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.contactHeading h1 {
+  width: 80%;
+  color: #0f0f0f;
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.contactHeading span {
+  color: #0f0f0f;
+  font-size: 1.125rem;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 1.5;
+  margin: 0;
+}
+.contactHeading p {
+  width: 45%;
+  color: #0f0f0f;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  margin: 0;
+}
+.cotactForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.labels {
+  color: #0f0f0f;
+  text-decoration: none;
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+input,
+textarea {
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: 1.5px solid #ccc;
+  border-radius: 5px;
+  background-color: transparent;
+  color: #0f0f0f;
+}
+.contactBtnContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding-top: 1rem;
+}
+.contactBtn {
+  display: inline-block;
+  padding: 0.5rem 0.5rem;
+  background-color: #94af9f;
+  color: #fdfaf6;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+.contactBtn:hover {
+  background-color: #dddddd;
+  color: #94af9f;
+}

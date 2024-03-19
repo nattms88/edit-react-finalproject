@@ -1,0 +1,285 @@
+/* General Styles */
+body {
+  font-family: "Fira Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Profile Section */
+.homepage {
+  width: 100%;
+  background-color: #fdfaf6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10rem;
+  padding: 5rem 0;
+}
+
+.profileText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.profileText h1 {
+  width: 50%;
+  font-size: 2rem;
+  padding-bottom: 0.5rem;
+  font-weight: 600;
+  color: #0f0f0f;
+}
+
+.profileText p {
+  font-size: 1.125rem;
+  padding-top: 1rem;
+  padding-bottom: 5rem;
+  color: #0f0f0f;
+  line-height: 1.8;
+}
+
+.profileText span {
+  font-weight: 600;
+}
+
+.imageContainer {
+  position: relative;
+}
+
+.profileImage {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 8px 8px rgba(7, 7, 7, 0.5);
+  transition: opacity 0.5s ease-in-out;
+}
+
+.baloonImage {
+  height: 7rem;
+  width: auto;
+  position: absolute;
+  left: 12rem;
+  z-index: 10;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.resumeButton {
+  display: inline-block;
+  padding: 1rem 3rem;
+  background-color: #94af9f;
+  color: #fdfaf6;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.resumeButton:hover {
+  background-color: #dddddd;
+  color: #94af9f;
+}
+
+/* Blog Posts section */
+.post {
+  background-color: #dbece2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem 0;
+}
+
+.postHeader {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  color: #0f0f0f;
+  padding: 2rem;
+}
+
+.postHeader h3 {
+  color: #0f0f0f;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.viewButton {
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  margin: 0 1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.viewButton:hover {
+  background-color: #aec2b6;
+  color: #dddddd;
+}
+
+.postBody {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+.postCard {
+  width: calc((100% / 2) - 2rem);
+  height: 32rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #fdfaf6;
+  gap: 1rem;
+  padding: 3rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.postCard h3 {
+  width: 83%;
+  color: #0f0f0f;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.postCard p {
+  color: #0f0f0f;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  padding-bottom: 1.3rem;
+}
+.postCard span {
+  background-color: #94af9f;
+  color: #fdfaf6;
+  padding: 0.1rem;
+  border-radius: 8px;
+}
+
+.blogImage {
+  height: 10rem;
+  width: 20rem;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 1.3rem;
+}
+
+/* Work Section */
+.work {
+  width: 100%;
+  background-color: #fdfaf6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem 0;
+}
+
+.workHeader {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  color: #0f0f0f;
+  padding: 2rem;
+}
+.workHeader h3 {
+  color: #0f0f0f;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.workBody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding-bottom: 4rem;
+}
+
+.workCard {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #fdfaf6;
+  gap: 1.5rem;
+  padding: 3rem;
+  border-bottom: #dddddd solid 0.1rem;
+}
+
+.workText {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  color: #0f0f0f;
+}
+
+.workText h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.workText p {
+  font-size: 1.125rem;
+  line-height: 1.5;
+  padding-bottom: 1.3rem;
+}
+
+.workText span {
+  background-color: #94af9f;
+  color: #fdfaf6;
+  padding: 0.1rem;
+  border-radius: 8px;
+}
+
+.workImage {
+  height: 20rem;
+  width: 30rem;
+  object-fit: scale-down;
+}
+
+.readMoreButton {
+  display: flex;
+  color: #94af9f;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.readMoreButton:hover {
+  color: #dddddd;
+}

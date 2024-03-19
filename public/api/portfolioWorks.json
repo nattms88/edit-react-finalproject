@@ -1,0 +1,55 @@
+[
+  {
+    "id": 1,
+    "name": "Lucky Shrub Webpage",
+    "subject": "Front-End",
+    "description": "Webpage created for Lucky Shrub, an American landscaper.",
+    "description2": "Lucky Shrub, your online destination for botanical bliss! Founded by the green-thumbed duo, Jason and Maria, their website is a digital canvas where plant passion meets innovative design. Jason's garden visions are seamlessly translated into an immersive online experience. Explore their extensive plant nursery, effortlessly navigating through our user-friendly interface. The website is not just a platform; it's a virtual garden, inviting you to discover, shop, and transform your space with the click of a button. Join them online at Lucky Shrub and let the artistry of web development bring the beauty of nature to your fingertips.",
+    "technologies": ["CSS, ", "HTML, ", "JavaScript"],
+    "year": "2024",
+    "link": "https://github.com/nattms88/lucky-shrub",
+    "image": "http://localhost:5173/api/images/luckyShrub.png",
+    "video": "http://localhost:5173/api/video/landingPage.mp4",
+    "desIntro":
+      "Welcome to the digital oasis of Lucky Shrub – your premier online destination for botanical bliss! Founded by the dynamic duo of green-thumbed enthusiasts, Jason and Maria, Lucky Shrub is more than just a website; it's a testament to the seamless fusion of plant passion and innovative design. As a web developer, I had the privilege of crafting Lucky Shrub's digital canvas using HTML, CSS, and JavaScript – a journey that transformed Jason's garden visions into an immersive online experience. Allow me to take you through the steps of creating this virtual garden:",
+    "desTitle": [
+      "1. Conceptualization and Planning:",
+      "2. HTML Structure:",
+      "3. CSS Styling:",
+      "4. JavaScript Interactivity:",
+      "5. Testing and Optimization:",
+      "6. Launch and Beyond:"
+    ],
+    "desP2":[
+        "Before diving into code, I collaborated closely with Jason and Maria to understand their vision for Lucky Shrub. We outlined the website's objectives, identified key features such as the plant nursery, shopping interface, and immersive design elements.",
+        "With a clear plan in mind, I began building the website's foundation using HTML. Each element – from the homepage to individual product pages – was meticulously crafted to ensure seamless navigation and accessibility.",
+        "Drawing inspiration from nature's palette, I created a visually stunning layout that reflects the beauty of Jason's botanical creations. Responsive design principles were implemented to ensure an optimal viewing experience across devices.",
+        "To breathe life into Lucky Shrub, I leveraged the power of JavaScript to add interactivity and functionality. Dynamic features such as interactive product galleries, real-time inventory updates, and smooth transitions were implemented to enhance user engagement.",
+        "Rigorous testing was conducted to ensure that Lucky Shrub's virtual garden flourished across various browsers and devices. Performance optimization techniques were applied to guarantee swift load times and seamless user experiences.",
+        "With the website polished to perfection, Lucky Shrub blossomed into the digital realm, inviting plant enthusiasts worldwide to explore, shop, and transform their spaces with ease."
+    ],
+    "desConclusion": "Join us online at Lucky Shrub and let the artistry of web development bring the beauty of nature to your fingertips. Explore our extensive plant nursery, effortlessly navigate our user-friendly interface, and embark on a journey of botanical discovery unlike any other. Welcome to Lucky Shrub – where plant passion meets innovative design."
+  },
+  {
+    "id": 2,
+    "name": "Hekto Furniture Store Webpage",
+    "subject": "UI/UX Design",
+    "description": "Landing page prototype designed for Interiors Furniture store.",
+    "description2": "Introducing the all-new web design project for Hekto Furniture Store, an ecommerce destination poised to redefine the online furniture shopping experience. Our design seamlessly combines sleek aesthetics with intuitive navigation, inviting customers to explore a curated selection of modern and minimalist furniture pieces. With an emphasis on user-friendly functionality and visually engaging layouts, the Hekto website offers a seamless journey from browsing to purchase, providing customers with a captivating online showroom where they can envision their spaces coming to life. From dynamic product showcases to streamlined checkout processes, every aspect of the website is meticulously crafted to elevate the Hekto brand and inspire a new generation of design enthusiasts.",
+    "technologies": ["Figma, ", "Photoshop, ", "Illustrator"],
+    "year": "2023",
+    "link": "",
+    "image": "http://localhost:5173/api/images/figmaProject.png"
+  },
+  {
+    "id": 3,
+    "name": " Mariana Millecco Branding Design",
+    "subject": "Visual Identity",
+    "description": "New visual identity created for Mariana Millecco, a hatmaker.",
+    "description2": "A new visual identity crafted with elegance and contemporary flair for Mariana Millecco's hat designer brand. Inspired by Mariana's passion for artisanal craftsmanship and exquisite design, our branding project captures the essence of sophistication and individuality. From the graceful emblem of the logo to the rich, earthy tones of the color palette, every element reflects the fusion of tradition and innovation that defines Mariana Millecco's creations. With meticulous attention to detail across every touchpoint, from business cards to packaging, our visual identity project ensures a cohesive and memorable brand experience that celebrates the enduring allure of craftsmanship and the power of individual expression.",
+    "technologies": ["Indesign, ", "Photoshop, ", "Illustrator"],
+    "year": "2020",
+    "link": "",
+    "image": "http://localhost:5173/api/images/chapelaria.png"
+  }
+]

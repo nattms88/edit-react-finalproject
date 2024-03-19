@@ -1,0 +1,33 @@
+.header {
+  background-color: #dbece2;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.navButton {
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  margin: 0 1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.navButton:hover {
+  background-color: #aec2b6;
+  color: #ffffff;
+}

@@ -1,0 +1,30 @@
+.footer {
+  background-color: #dbece2;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0;
+}
+.footerContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #0f0f0f;
+  font-size: 1rem;
+  gap: 1rem;
+}
+.contactLinks {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 1rem;
+}
+.iconImage {
+  width: 2rem;
+  height: 2rem;
+  margin: 0;
+}

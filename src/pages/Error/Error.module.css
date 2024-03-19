@@ -1,0 +1,40 @@
+body {
+  font-family: "Fira Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.error {
+  background-color: #fdfaf6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+}
+
+.errorImage {
+  height: 40rem;
+  width: auto;
+  object-fit: cover;
+  padding: 3rem;
+}
+
+.error a {
+  display: flex;
+  color: #94af9f;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.error a:hover {
+  color: #dddddd;
+}

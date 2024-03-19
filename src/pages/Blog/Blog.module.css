@@ -1,0 +1,95 @@
+body {
+  font-family: "Fira Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+.posts {
+  background-color: #fdfaf6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem 0;
+}
+.postsTitle {
+  width: 80%;
+  border-bottom: #dddddd solid 0.1rem;
+}
+.postsTitle h1 {
+  color: #0f0f0f;
+  font-size: 4rem;
+  font-weight: 600;
+  line-height: 1.5;
+  text-align: center;
+  padding-bottom: 3rem;
+  margin: 0;
+}
+.postBody {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 2rem;
+}
+.postCard {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 3rem;
+  border-bottom: #dddddd solid 0.1rem;
+}
+.postCard h3 {
+  color: #0f0f0f;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+.postCard span {
+  background-color: #94af9f;
+  color: #fdfaf6;
+  padding: 0.1rem;
+  border-radius: 8px;
+}
+.blogImageContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+.postCard p {
+  color: #0f0f0f;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  padding-bottom: 1.3rem;
+}
+.blogImage {
+  height: 15rem;
+  width: 25rem;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.postPreview {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.readMoreButton {
+  display: flex;
+  color: #94af9f;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.readMoreButton:hover {
+  color: #dddddd;
+}

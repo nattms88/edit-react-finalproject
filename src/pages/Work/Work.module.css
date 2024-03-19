@@ -1,0 +1,94 @@
+body {
+  font-family: "Fira Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.works {
+  background-color: #fdfaf6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem 0;
+}
+.worksTitle {
+  width: 80%;
+  border-bottom: #dddddd solid 0.1rem;
+}
+.worksTitle h1 {
+  color: #0f0f0f;
+  font-size: 4rem;
+  font-weight: 600;
+  line-height: 1.5;
+  text-align: center;
+  padding-bottom: 3rem;
+  margin: 0;
+}
+.workBody {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 2rem;
+}
+.workCard {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 3rem;
+  padding: 3rem;
+  border-bottom: #dddddd solid 0.1rem;
+}
+.workText {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  color: #0f0f0f;
+}
+.workText h3 {
+  color: #0f0f0f;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+.workText p {
+  color: #0f0f0f;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  padding-bottom: 1.3rem;
+}
+.workText span {
+  background-color: #94af9f;
+  color: #fdfaf6;
+  padding: 0.1rem;
+  border-radius: 8px;
+  margin-right: 0.5rem;
+}
+.workImage {
+  height: 20rem;
+  width: auto;
+  object-fit: cover;
+}
+.readMoreButton {
+  display: flex;
+  color: #94af9f;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.readMoreButton:hover {
+  color: #dddddd;
+}
