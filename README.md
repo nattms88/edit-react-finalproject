@@ -33,7 +33,7 @@ Isso instalará todas as dependências necessárias no diretório do projeto.
    - Isso iniciará o servidor de desenvolvimento Vite e abrirá automaticamente o navegador padrão com o aplicativo em execução.
 
 5. Visualizar o Projeto
-   - Agora você pode visualizar o projeto em execução no seu navegador. Por padrão, o servidor de desenvolvimento Vite será executado em http://127.0.0.1:5174/
+   - Agora você pode visualizar o projeto em execução no seu navegador. Por padrão, o servidor de desenvolvimento Vite será executado em http://127.0.0.1:5173/
    - Basta abrir um navegador da web e navegar para esse endereço para ver o aplicativo em ação.
 
 6. Parar o Servidor
