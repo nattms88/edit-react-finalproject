@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Reset } from "styled-reset";
 import styles from './Contact.module.css';
-import contactImg from '/Users/natashacaruso/Desktop/EDIT/React/React Projects/Portfolio/src/assets/images/contactImg.jpg';
+import contactImg from '../../assets/images/contactImg.jpeg';
 
 function Contact() {
     const [formData, setFormData] = useState({

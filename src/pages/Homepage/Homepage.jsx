@@ -2,9 +2,9 @@ import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Reset } from "styled-reset";
 import styles from "./Homepage.module.css";
-import natashaPicture from "/Users/natashacaruso/Desktop/EDIT/React/React Projects/Portfolio/src/assets/images/natashaPicture.jpeg";
-import myResume from "/Users/natashacaruso/Desktop/EDIT/React/React Projects/Portfolio/src/assets/myResume.pdf";
-import baloon from "/Users/natashacaruso/Desktop/EDIT/React/React Projects/Portfolio/src/assets/images/baloon.svg";
+import natashaPicture from "../../assets/images/natashaPicture.jpeg";
+import myResume from "../../assets/myResume.pdf";
+import baloon from "../../assets/images/baloon.svg";
 
 const Homepage = () => {
   const [showBaloon, setShowBaloon] = useState(false);
